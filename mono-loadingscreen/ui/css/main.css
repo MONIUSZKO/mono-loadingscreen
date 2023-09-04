@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+iframe {
+    width: 100%;
+    height: 100%; 
+}
+
+.tlo {
+    position: absolute;
+    width: 125%;
+    height: 130%;
+    top: -15%;
+    left: -10%;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -99;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#obraz {
+    width: 50%;
+}
+
+.logo .balackout {
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.45);
+    position: absolute;
+    width: 15000px;
+    height: 15000px;
+    margin-left: -150px;
+    margin-top: -1500px;
+}
+
+.prostokat {
+    position: absolute;
+    height: 1px;
+    width: 15000px;
+    background-color: #f5b953;
+    bottom: 0px;
+}
+
+.prostoka2 {
+    position: absolute;
+    height: 1px;
+    width: 15000px;
+    background-color: #f5b953;
+    top: 0px;
+}
+
+.prostoka3 {
+    position: absolute;
+    height: 15000px;
+    width: 1px;
+    background-color: #f5b953;
+    left: 0px;
+}
+
+.prostoka4 {
+    position: absolute;
+    height: 15000px;
+    width: 1px;
+    background-color: #f5b953;
+    right: 0px;
+}
+
+.text {
+    color: #fff;
+    position: absolute;
+    bottom: 5px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
