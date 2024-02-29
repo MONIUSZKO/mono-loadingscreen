@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'M O N O'
+author 't3o'
 description 'Prosty Loading screen'
 version '1.0.0'
 
